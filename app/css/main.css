@@ -13,6 +13,7 @@ a {
 }
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: #f1f2f5;
 }
 div.container {
     max-width: 1200px;
@@ -24,8 +25,8 @@ div.container {
 }
 
 header {
-    background-color: rgba(0,0,0,.5);
-    background-color: #647375;
+    
+    background-color: #020F2B;
     opacity: 0.9;
     position: fixed;
     width: 100%;
@@ -226,4 +227,34 @@ input[type=text], select, textarea {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+  }
+
+
+
+  /*Event page */
+
+  .event-container {
+      display: grid;
+      grid-template-columns: 400px 400px 400px;
+      grid-column-gap: 60px;
+      grid-row-gap: 60px;
+  }
+
+
+  .event-grid {
+      background-color: white;
+      width: 300px;
+      overflow: hidden;
+      padding: 20px 30px;
+      line-height: 2;
+
+        -webkit-box-shadow: -2px 26px 37px -16px rgba(0,0,0,0.53);
+        -moz-box-shadow: -2px 26px 37px -16px rgba(0,0,0,0.53);
+        box-shadow: -2px 26px 37px -16px rgba(0,0,0,0.53);
+  }
+
+  .event-grid h2 {
+      background-color: #020F2B;
+      text-align: center;
+      color: white;
   }
